@@ -1,0 +1,39 @@
+/* Основные стили */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background: #F5F5F5;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Шрифты */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Анимации */
+.service-card {
+  transition: all 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.button {
+  transition: background 0.3s ease;
+}
+.button:hover {
+  background: #0A1F3A;
+  color: white;
+}
+
+/* Полный CSS-код доступен в репозитории */
